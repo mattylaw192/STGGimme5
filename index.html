@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Gimme5! STG Alumni Association</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../STGGimme5/assets/style.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../STGGimme5/assets/style.css"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4" id="jumbotronH1">Sigma Tau Gamma Alumni BBQ Raffle</h1>
+          <h4>
+            Join the Alumni Gimme5! and be entered to win a summer prize pack!
+            ($150 value)
+          </h4>
+          <p class="lead">The party doesn't have to end after the cookout.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bodyframe1">
+      <div class="container" id="background2">
+        <!-- <p>The Party Does Have to End After The Cookout</p> -->
+        <h5>Get 1 entry for every $5 donated per month!</h5>
+
+        <!-- Add Paypal Button Form -->
+        <div class="col-md-6" id="paypalForm">
+          <form
+            action="https://www.paypal.com/cgi-bin/webscr"
+            method="post"
+            target="_top"
+          >
+            <input type="hidden" name="cmd" value="_s-xclick" />
+            <input
+              type="hidden"
+              name="hosted_button_id"
+              value="RLJ8JCSH59BVS"
+            />
+            <table>
+              <tr>
+                <td>
+                  <input
+                    type="hidden"
+                    name="on0"
+                    value="Alumni Gimme5! Payment Options"
+                  />Alumni Gimme5! Payment Options
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="os0">
+                    <option value="$5/mo">$5/mo : $5.00 USD - monthly</option>
+                    <option value="$10/mo"
+                      >$10/mo : $10.00 USD - monthly</option
+                    >
+                    <option value="$15/mo"
+                      >$15/mo : $15.00 USD - monthly</option
+                    >
+                    <option value="$20/mo"
+                      >$20/mo : $20.00 USD - monthly</option
+                    >
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="hidden" name="on1" value="Your Name" />Your Name
+                </td>
+              </tr>
+              <tr>
+                <td><input type="text" name="os1" maxlength="200" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="hidden" name="on2" value="Your Email" />Your
+                  Email
+                </td>
+              </tr>
+              <tr>
+                <td><input type="text" name="os2" maxlength="200" /></td>
+              </tr>
+            </table>
+
+            <input type="hidden" name="currency_code" value="USD" />
+            <input
+              type="image"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif"
+              border="0"
+              name="submit"
+              alt="PayPal - The safer, easier way to pay online!"
+            />
+            <img
+              alt=""
+              border="0"
+              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="background">
+      <h2>Support The Chapter that Supported You</h2>
+      <p>
+        Donations and hardwork make events like the Alumni BBQ possible. They
+        also help fund active chapter educational/national chapter events,
+        Epsilon Delta alumni events, as well as necessary chapter maintenance.
+      </p>
+      <p>Donations make our organization possible.</p>
+    </div>
+  </body>
+</html>
