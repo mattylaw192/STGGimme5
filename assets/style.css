@@ -1,13 +1,40 @@
-.jumbotron {
-    background-color: #091833;
-    color:white;
-};
-
 h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+h4{
 color:#FFCE00;
-};
+text-align: center;
+}
 
-/* .bodyframe1 {
-background-color: #091833
-}; */
+img{
+    max-width:50%;
 
+}
+
+div.jumbotron.jumbotron-fluid{
+    margin: auto;
+    background-color:#091833;
+    color:white;
+}
+
+form{
+    max-width: 50%;
+}
+
+@media screen and (max-width: 400px) {
+    #jumbotronH1 {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 400px) {
+    #jumbotronMobile {
+      display: none;
+    }
+  }
