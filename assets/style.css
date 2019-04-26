@@ -32,14 +32,13 @@ h5{
 h6{
     text-align: center;
 }
-
+/* 
 #background2{
     height:auto;
-}
+} */
 
 #background2{
-    height:700px;
-    margin:5%;
+    height:600px;
 }
 
 img{
@@ -97,5 +96,5 @@ a{
 }
 
 #donationDiv{
-    margin:auto;
+    margin: 10px auto;
 }
