@@ -24,6 +24,10 @@ text-align: center;
     text-align: center;
 }
 
+#rules{
+    text-align:center;
+}
+
 h5{
     margin: 10px 0 0 0 ;
     text-align: center;
@@ -61,15 +65,24 @@ div.jumbotron.jumbotron-fluid{
 min-height:80vh;
 } */
 
-form{
-    max-width: 50%;
+#paypalInfo{
+
     margin:auto;
 }
 
-#submit{
-    /* position:relative; */
-    margin:auto;
+form{
+    /* max-width: 50%; */
+    /* margin:auto; */
 }
+
+.btn.btn-primary{
+position: relative;
+top:5px;
+left: 13%;
+background-color:#091833;
+margin: auto;
+}
+
 
 table{
     margin:auto;
@@ -77,7 +90,7 @@ table{
 
 
 #footer{
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding:1%;
@@ -103,3 +116,22 @@ a{
 #donationDiv{
     margin: 10px auto;
 }
+
+
+@media screen and (max-width: 700px) {
+    #rules {
+      font-size: 14px;
+    }
+    #headerSubText{
+        font-size:15px;
+    }
+
+    /* .btn.btn-primary{
+        position: relative;
+        top:5px;
+        left: 1%;
+        background-color:#091833;
+        margin: auto;
+        } */
+  }
+
