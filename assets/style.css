@@ -1,3 +1,10 @@
+#page-container{
+    position:relative;
+    min-height: 100vh;
+}
+
+
+
 h1{
     font-family: 'Permanent Marker', cursive;
     text-align: center;
@@ -12,8 +19,19 @@ color:#FFCE00;
 text-align: center;
 }
 
+h5{
+    margin: 10px 0 0 0 ;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
 img{
-    max-width:50%;
+    max-width:30%;
+    min-width: 15%;
+    float:left;
 
 }
 
@@ -23,8 +41,39 @@ div.jumbotron.jumbotron-fluid{
     color:white;
 }
 
+
+.bodyframe1{
+min-height:80vh;
+}
+
 form{
     max-width: 50%;
+    float: left;
+}
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding:1%;
+    background-color: #1A355D;
+    color:white;
+}
+
+
+
+#footerP{
+    color:#FFCE00;
+}
+
+#footerText{
+    padding:10px;
+    text-align:center;
+}
+
+#donationDiv{
+    margin:auto;
 }
 
 @media screen and (max-width: 400px) {
