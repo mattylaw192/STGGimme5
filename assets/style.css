@@ -28,9 +28,18 @@ h6{
     text-align: center;
 }
 
+#background2{
+    height:auto;
+}
+
+#background2{
+    height:700px;
+    margin:5%;
+}
+
 img{
     max-width:30%;
-    min-width: 15%;
+    min-width: 30%;
     float:left;
 
 }
@@ -41,14 +50,20 @@ div.jumbotron.jumbotron-fluid{
     color:white;
 }
 
-
-.bodyframe1{
-min-height:80vh;
+#prizePackDiv{
+    float:right;
 }
+/* .bodyframe1{
+min-height:80vh;
+} */
 
 form{
     max-width: 50%;
-    float: left;
+    margin:auto;
+}
+
+table{
+    margin:auto;
 }
 
 
@@ -72,18 +87,10 @@ form{
     text-align:center;
 }
 
+a{
+    color:white;
+}
+
 #donationDiv{
     margin:auto;
 }
-
-@media screen and (max-width: 400px) {
-    #jumbotronH1 {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: 400px) {
-    #jumbotronMobile {
-      display: none;
-    }
-  }
