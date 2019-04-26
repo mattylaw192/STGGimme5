@@ -15,8 +15,13 @@ h2{
     text-align: center;
 }
 h4{
-color:#FFCE00;
+color:#091833;
 text-align: center;
+}
+
+#headerSubText{
+    color:#FFCE00;
+    text-align: center;
 }
 
 h5{
