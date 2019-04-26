@@ -1,8 +1,11 @@
 #page-container{
     position:relative;
-    min-height: 100vh;
+    min-height: 1000px;
 }
 
+body{
+    color:#091833;
+}
 
 
 h1{
@@ -75,11 +78,11 @@ form{
     /* margin:auto; */
 }
 
-.btn.btn-primary{
+#submit{
 position: relative;
 top:5px;
-left: 13%;
-background-color:#091833;
+left: 10%;
+
 margin: auto;
 }
 
@@ -90,7 +93,7 @@ table{
 
 
 #footer{
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding:1%;
@@ -133,5 +136,13 @@ a{
         background-color:#091833;
         margin: auto;
         } */
+
+        #submit{
+            position: relative;
+            top:5px;
+            left: 1%;
+            
+            margin: auto;
+            }
   }
 
